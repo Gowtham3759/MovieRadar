@@ -1,0 +1,28 @@
+body,html{
+    
+    background-color: rgb(2, 2, 60);
+}
+.whole{
+    background-color: rgb(2, 2, 60);
+    color: white;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    height:35px;
+    width: 55px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+.hero{
+    margin: 0;
+    margin-bottom: -50px;
+}
+.btn::placeholder{
+    color: rgb(206, 200, 200);
+}
