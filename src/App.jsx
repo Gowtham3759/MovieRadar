@@ -41,7 +41,7 @@ function App() {
       <h1 style={{textAlign:'center',fontFamily:'Arial'}}>Movies</h1>
       <div className='grid'>
         {
-          movies.map((movie)=>{
+          movies && movies.map((movie)=>{
             return movie.poster_path?<Card movie={movie}/>:null;
           })
         }
